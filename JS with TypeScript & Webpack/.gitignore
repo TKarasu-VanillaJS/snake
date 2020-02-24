@@ -1,3 +1,6 @@
 /node_modules
-/install.bat
-/webpackRun.bat
+install.bat
+webpackRun.bat
+package.json
+package-lock.json
+webpack.config.js

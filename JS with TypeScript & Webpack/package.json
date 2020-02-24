@@ -4,7 +4,10 @@
   "description": "version avec typeScript et WebPack",
   "main": "index.js",
   "scripts": {
-    "test": "\"tes\"\u001b[Dt\u001b[D\u001b[D\u001b[D\u001b[Decho test\""
+    "test": "echo ceci est un test",
+    "prod": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "start:dev": "webpack-dev-server"
   },
   "keywords": [
     "snake",

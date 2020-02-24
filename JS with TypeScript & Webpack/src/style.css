@@ -1,1 +1,28 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+}
 
+#canvas {
+  margin-top: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#score {
+  margin-top: 50px;
+  color: #fefefe;
+}
+
+#recommencer {
+  margin-top: 50px;
+  color: #fefefe;display: none;
+}
